@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/Sixdlogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+   
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/Sixdlogo.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>SIXD Engineering: Innovating Engineering Excellence</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.91/build/spline-viewer.js"></script>
+    <script class="arclck" data-injected="true">document.currentScript.dataset.injected = true;
+      try {
+        let active = true;
+    
+        Selection.prototype.removeAllRanges = new Proxy(Selection.prototype.removeAllRanges, {
+          apply(target, self, args) {
+            if (active) {
+              return undefined;
+            }
+            return Reflect.apply(target, self, args);
+          }
+        });
+    
+        document.currentScript.addEventListener('remove', () => active = false);
+        document.currentScript.addEventListener('install', () => active = true);
+      }
+      catch (e) { }
+    </script>
+    <script class="arclck" data-injected="true">document.currentScript.dataset.injected = true;
+      try {
+        const ogs = {
+          removed: false,
+          misc: {}
+        };
+    
+       
+        ogs.misc.mp = MouseEvent.prototype.preventDefault;
+        Object.defineProperty(MouseEvent.prototype, 'preventDefault', {
+          get() {
+            return ogs.removed ? ogs.misc.mp : () => { };
+          },
+          set(c) {
+            console.info('a try to overwrite "preventDefault"', c);
+            ogs.misc.mp ||= c;
+          }
+        });
+        Object.defineProperty(MouseEvent.prototype, 'returnValue', {
+          get() {
+            return ogs.removed && 'v' in this ? this.v : true;
+          },
+          set(c) {
+            console.info('a try to overwrite "returnValue"', c);
+            this.v = c;
+          }
+        });
+    
+        ogs.misc.cp = ClipboardEvent.prototype.preventDefault;
+        Object.defineProperty(ClipboardEvent.prototype, 'preventDefault', {
+          get() {
+            return ogs.removed ? ogs.misc.cp : () => { };
+          },
+          set(c) {
+            ogs.misc.cp ||= c;
+          }
+        });
+    
+        document.currentScript.addEventListener('remove', () => ogs.removed = true);
+        document.currentScript.addEventListener('install', () => ogs.removed = false);
+      }
+      catch (e) { }
+    </script>  
+  </body>
+</html>

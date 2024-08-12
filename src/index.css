@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: none;
+}
+
+body {
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.font-face-futur-md-bt {
+  font-family: "Futur-Md-BT";
+}
+
+#font-face-futur-md-bt {
+  font-family: "Futur-Md-BT";
+}
+
+.font-face-futur-HV {
+  font-family: "Futur-HV";
+}
+
+.font-face-futur-LT {
+  font-family: "Futur-LT";
+
+}
+
+.font-face-futur-BK {
+  font-family: "Futur-BK";
+
+}
+
+
+.font-face-futur-bk {
+  font-family: "futur-bk";
+
+}
+.font-face-futurabkbt {
+  font-family: "FuturaBKBT";
+
+}
+.font-face-futur-FB {
+  font-family: "FB";
+
+}
+
+.font-face-futur-futur {
+  font-family: "futur";
+
+}
+
+.font-face-bold {
+  font-family: "FuturBold";
+
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  overflow-y: scroll;
+}
+.copy-protection-on #single-article-right,
+.copy-protection-on {
+  pointer-events: initial !important;
+}
+
+::-moz-selection {
+  color: #000 !important;
+  background: #accef7 !important;
+}
+
+::selection {
+  color: #000 !important;
+  background: #accef7 !important;
+}
+
+@layer allow-right-click {
+  ::-moz-selection {
+    color: #000 !important;
+    background: #accef7 !important;
+  }
+
+  ::selection {
+    color: #000 !important;
+    background: #accef7 !important;
+  }
+}

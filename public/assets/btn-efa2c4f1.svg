@@ -1,0 +1,20 @@
+<svg width="254" height="56" viewBox="0 0 254 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Discover">
+<g id="Rectangle 562" filter="url(#filter0_b_2089_11525)">
+<path d="M0 2.43479C0 1.09009 1.09009 0 2.43478 0H251.565C252.91 0 254 1.09009 254 2.43478V53.5652C254 54.9099 252.91 56 251.565 56H2.43478C1.09008 56 0 54.9099 0 53.5652V2.43479Z" fill="#F05025" fill-opacity="0.19"/>
+<path d="M0.426087 2.43479C0.426087 1.32541 1.32541 0.426087 2.43478 0.426087H251.565C252.675 0.426087 253.574 1.32541 253.574 2.43478V53.5652C253.574 54.6746 252.675 55.5739 251.565 55.5739H2.43478C1.32541 55.5739 0.426087 54.6746 0.426087 53.5652V2.43479Z" stroke="url(#paint0_linear_2089_11525)" stroke-width="0.852174"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_2089_11525" x="-17.0435" y="-17.0435" width="288.087" height="90.087" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="8.52174"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2089_11525"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2089_11525" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_2089_11525" x1="69.1156" y1="-2.43478" x2="87.856" y2="56.7478" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F05025"/>
+<stop offset="1" stop-color="#FCFCFC" stop-opacity="0.06"/>
+</linearGradient>
+</defs>
+</svg>
